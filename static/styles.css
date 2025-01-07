@@ -1,0 +1,128 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('H1B-visa-image.jpeg'); /* Arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    color: #2c3e50; /* Metinlerin okunabilirliği için metin rengi */
+}
+
+/* Başlık ve Bölüm */
+#info-section, #form-section {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Şeffaf beyaz arkaplan */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+/* Başlık */
+h1, h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Paragraf */
+p {
+    color: #34495e;
+    font-size: 1.1rem;
+}
+
+/* Butonlar */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Form Grupları */
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Form Etiketleri */
+label {
+    font-size: 1rem;
+    color: #2c3e50;
+    width: 30%;
+    text-align: right;
+}
+
+/* Form Elemanları */
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 65%;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Responsive Tasarım */
+@media screen and (max-width: 768px) {
+    #info-section, #form-section {
+        width: 80%;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    label {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/* Geri Dön Butonu Özel Ayarları */
+button[type="button"] {
+    background-color: #e74c3c; /* Farklı bir renk */
+}
+
+button[type="button"]:hover {
+    background-color: #c0392b;
+}
