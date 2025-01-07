@@ -13,13 +13,8 @@ Ayrıca, web tabanlı bir form aracılığıyla kullanıcıdan alınan veriler i
 
 ## Nasıl Çalıştırılır?
 Proje dosyalarını bilgisayarınıza klonlayın
-
 Gerekli Python kütüphanelerini yükleyin
 
-Flask uygulamasını başlatın:
+Flask uygulamasını başlatın:python flask_h1b_app.py
 
-python flask_h1b_app.py
-
-Web tarayıcınızdan aşağıdaki URL'yi ziyaret edin:
-
-http://127.0.0.1:5000
+Web tarayıcınızdan aşağıdaki URL'yi ziyaret edin:http://127.0.0.1:5000
