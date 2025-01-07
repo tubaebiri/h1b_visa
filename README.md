@@ -19,13 +19,3 @@ Flask uygulamasını başlatın:python flask_h1b_app.py
 
 Web tarayıcınızdan aşağıdaki URL'yi ziyaret edin:http://127.0.0.1:5000
 
-## Video Kaydı
-
-<video controls>
-  <source src="videos/demo.mp4" type="video/mp4">
-  Tarayıcınız bu videoyu desteklemiyor.
-
-https://github.com/user-attachments/assets/db368ad5-27db-4119-b906-5fe4daab815b
-
-
-</video>
