@@ -25,5 +25,7 @@ Web tarayıcınızdan aşağıdaki URL'yi ziyaret edin:http://127.0.0.1:5000
   <source src="videos/demo.mp4" type="video/mp4">
   Tarayıcınız bu videoyu desteklemiyor.
 
-https://github.com/user-attachments/assets/28aa6bd3-bb16-488c-936d-f801d6fb9897
+https://github.com/user-attachments/assets/db368ad5-27db-4119-b906-5fe4daab815b
+
+
 </video>
