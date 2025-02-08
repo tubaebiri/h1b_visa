@@ -18,4 +18,9 @@ Gerekli Python kütüphanelerini yükleyin
 Flask uygulamasını başlatın:python flask_h1b_app.py
 
 Web tarayıcınızdan aşağıdaki URL'yi ziyaret edin:http://127.0.0.1:5000
+Projenin çalışır halini aşagıda görebilirsiniz;
+
+
+
+https://github.com/user-attachments/assets/ecb0ccc4-b6b4-40a2-945f-05952fcaff6e
 
